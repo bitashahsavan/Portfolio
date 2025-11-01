@@ -2,14 +2,13 @@
   "name": "myportfilo",
   "version": "0.1.0",
   "private": true,
- 
   "scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",
-  "start": "next start"
-}
-,
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.14.4",
     "motion": "^12.23.22",
     "next": "15.4.6",
     "react": "19.1.0",
