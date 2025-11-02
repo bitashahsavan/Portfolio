@@ -11,7 +11,6 @@ import Work from "./component/Work";
 
 
 export default function Home() {
-
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
@@ -27,11 +26,9 @@ export default function Home() {
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
       localStorage.theme = 'dark';
-
     } else {
       document.documentElement.classList.remove('dark');
       localStorage.theme = '';
-
     }
   }, [isDarkMode]);
 

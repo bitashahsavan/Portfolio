@@ -38,7 +38,6 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import github from './github.png';
 import demo from './demo.png';
-import resturant from "./resturant.png";
 
 
 export const assets = {
@@ -88,28 +87,28 @@ export const workData = [
     {
         title: 'Portfilo',
         description: ' Nextjs | tailwind | motion.dev',
-        bgImage: './work-1.png',
+        bgImage: '/portfilo.png',
         DemoLink: 'https://bitashahsavan.github.io/restaurant/',
         github: 'https://github.com/bitashahsavan/restaurant?tab=readme-ov-file'
     },
     {
         title: 'Restaurant',
         description: ' React-Vite | Mui | Bootstarp',
-        bgImage: './work-2.png',
+        bgImage: '/resturant.png',
         DemoLink: 'https://bitashahsavan.github.io/restaurant/',
         github: 'https://github.com/bitashahsavan/restaurant?tab=readme-ov-file'
     },
     {
         title: 'ball Challenge ',
         description: 'a Challenge with opp & js',
-        bgImage: '/work-3.png',
+        bgImage: '/ball.png',
         DemoLink: 'https://github.com/bitashahsavan/ball_game_sorin',
         github: 'https://github.com/bitashahsavan/ball_game_sorin'
     },
     {
         title: 'Stocker-Investment',
         description: 'Html | Css | BootStarp | jQuery',
-        bgImage: '/work-4.png',
+        bgImage: '/stoker.png',
         DemoLink: 'https://bitashahsavan.github.io/stocker-Investment-website/',
         github: 'https://github.com/bitashahsavan/stocker-Investment-website'
 
@@ -117,42 +116,42 @@ export const workData = [
        {
         title: 'Ping-pong-game',
         description: 'Html | Css | javascript | opp',
-        bgImage: '/work-1.png',
+        bgImage: '/ping-pong.png',
         DemoLink: 'https://bitashahsavan.github.io/ping_pong_game/',
         github: 'https://github.com/bitashahsavan/ping_pong_game?tab=readme-ov-file'
     },
        {
         title: 'rock-paper-scissors',
         description: 'Html | Css | javascript',
-        bgImage: '/work-2.png',
+        bgImage: '/game.png',
         DemoLink: 'https://bitashahsavan.github.io/rock_paper_scissors_game/',
         github: 'https://github.com/bitashahsavan/rock_paper_scissors_game'
     },
     {
         title: 'Loginform',
         description: 'Html | Css | javascript | React | vite',
-        bgImage: '/work-3.png',
+        bgImage: '/login-form.png',
         DemoLink: 'https://github.com/bitashahsavan/login_form-React-Vite?tab=readme-ov-file',
         github: 'https://github.com/bitashahsavan/login_form-React-Vite?tab=readme-ov-file'
     },
     {
         title: 'portfilo',
         description: 'Html | Css | javascript ',
-        bgImage: '/work-3.png',
+        bgImage: '/portfilo2.png',
         DemoLink: 'https://bitashahsavan.github.io/Personal-website-example/',
         github: 'https://github.com/bitashahsavan/Personal-website-example'
     },
     {
         title: 'Random-quote',
         description: 'Html | Css | javascript | fetch api',
-        bgImage: '/work-3.png',
+        bgImage: '/random.png',
         DemoLink: 'https://bitashahsavan.github.io/snake_game/',
         github: 'https://github.com/bitashahsavan/Random-quote'
     },
       {
         title: 'calculater ',
         description: 'Html | Css | javascript | opp',
-        bgImage: '/work-3.png',
+        bgImage: '/calc.png',
         DemoLink: 'https://github.com/bitashahsavan/advance-calculator',
         github: 'https://github.com/bitashahsavan/advance-calculator'
     }
@@ -167,7 +166,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript ,React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Sc. in Information Technology,' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 10 projects' }
 ];

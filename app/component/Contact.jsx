@@ -58,12 +58,16 @@ const Contact = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         i'd love to hear from you! If you have any question, comments , or feedback. please use the form below.
-           <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
-                    <li><a target='' href='https://github.com/bitashahsavan'> Github</a></li>
-                    <li><a target='' href='https://www.linkedin.com/in/bita-shahsavan-830471299'> linkedIn</a></li>
-                    <li><a target='' href='https://gitlab.com/bitashahsavan2025'> Gitlab</a></li>
-                </ul>
       </motion.p>
+
+      <motion.ul
+       initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }} className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
+        <li><a target='' href='https://github.com/bitashahsavan'> Github</a></li>
+        <li><a target='' href='https://www.linkedin.com/in/bita-shahsavan-830471299'> linkedIn</a></li>
+        <li><a target='' href='https://gitlab.com/bitashahsavan2025'> Gitlab</a></li>
+      </motion.ul>
 
       <motion.form
         initial={{ opacity: 0 }}

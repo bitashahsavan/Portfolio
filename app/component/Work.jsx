@@ -53,7 +53,7 @@ const Work = ({ isDarkMode }) => {
                     <motion.div
                         whileInHover={{ scale: 1.05 }}
                         transition={{ duration: 0.3 }}
-                        div key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
+                        key={index} className='aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group'
                         style={{ backgroundImage: `url(${project.bgImage})` }}>
                         <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 
                         py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7'>
@@ -64,7 +64,10 @@ const Work = ({ isDarkMode }) => {
                                 <div className='flex  gap-2  py-3 justify-start items-center'>
 
                                     <a href={project.github}><Image src={assets.github} alt='github link' title='github link' /></a><br />
-                                    <a href={project.DemoLink} title='link Demo'><svg class="w-7 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                    <a href={project.DemoLink} title='link Demo'>
+                                        <svg className="w-7 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin ="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
                                     </a>
                                 </div>
 
