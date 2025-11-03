@@ -88,8 +88,8 @@ export const workData = [
         title: 'Portfilo',
         description: ' Nextjs | tailwind | motion.dev',
         bgImage: '/portfilo.png',
-        DemoLink: 'https://bitashahsavan.github.io/restaurant/',
-        github: 'https://github.com/bitashahsavan/restaurant?tab=readme-ov-file'
+        DemoLink: 'https://bitashahsavan.netlify.app/',
+        github: 'https://github.com/bitashahsavan/Portfolio'
     },
     {
         title: 'Restaurant',
