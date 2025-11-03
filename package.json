@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.14.4",
     "motion": "^12.23.22",
     "next": "15.4.6",
     "react": "19.1.0",
@@ -16,6 +15,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@netlify/plugin-nextjs": "^5.14.4",
     "@tailwindcss/postcss": "^4",
     "autoprefixer": "^10.4.21",
     "eslint": "^9",
