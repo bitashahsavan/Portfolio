@@ -154,6 +154,14 @@ export const workData = [
         bgImage: '/calc.png',
         DemoLink: 'https://github.com/bitashahsavan/advance-calculator',
         github: 'https://github.com/bitashahsavan/advance-calculator'
+    },
+    ,
+      {
+        title: 'Todo-App',
+        description: 'Html | Css | javascript | React',
+        bgImage: '/todo.png',
+        DemoLink: 'https://github.com/bitashahsavan/todo_app',
+        github: 'https://github.com/bitashahsavan/todo_app'
     }
 ]
   
