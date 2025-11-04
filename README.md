@@ -7,7 +7,7 @@ This project is built using **Next.js**, along with **Tailwind CSS** and animati
 - 📌<a href="https://bitashahsavan.netlify.app/" rel="nofollow">Demo</a>
 - 🙋‍♀️Developed by Bita Shahsavan
 - 📧Contact with me : <a href="https://www.linkedin.com/in/bita-shahsavan-830471299/" rel="nofollow">LINKEDIN</a>
-- 📆Created : Dec 2025
+- 📆Created : ‎August  2025
 - ✔Technologies : Html , Css , javascript ,Nextjs ,  Tailwind
 
 ---
@@ -29,7 +29,7 @@ This project is built using **Next.js**, along with **Tailwind CSS** and animati
 - Tailwind CSS  
 - Framer Motion  
 - JavaScript / CSS  
-- Vercel (recommended for deployment)  
+- Netilfy
 
 ---
 
