@@ -100,7 +100,7 @@ export const workData = [
     },
     {
         title: 'ball Challenge ',
-        description: 'a Challenge with opp & js',
+        description: 'a Challenge with oop & js',
         bgImage: '/ball.png',
         DemoLink: 'https://github.com/bitashahsavan/ball_game_sorin',
         github: 'https://github.com/bitashahsavan/ball_game_sorin'
@@ -115,7 +115,7 @@ export const workData = [
     },
        {
         title: 'Ping-pong-game',
-        description: 'Html | Css | javascript | opp',
+        description: 'Html | Css | javascript | oop',
         bgImage: '/ping-pong.png',
         DemoLink: 'https://bitashahsavan.github.io/ping_pong_game/',
         github: 'https://github.com/bitashahsavan/ping_pong_game?tab=readme-ov-file'
@@ -150,7 +150,7 @@ export const workData = [
     },
       {
         title: 'calculater ',
-        description: 'Html | Css | javascript | opp',
+        description: 'Html | Css | javascript | oop',
         bgImage: '/calc.png',
         DemoLink: 'https://github.com/bitashahsavan/advance-calculator',
         github: 'https://github.com/bitashahsavan/advance-calculator'
